@@ -1,3 +1,12 @@
+# Godot 3.5 Jigglebones
+
+This is a simple refactor of <a href="https://github.com/Bauxitedev">Bauxitedev</a>'s addon :
+> https://github.com/Bauxitedev/godot-jigglebones
+
+In this addon now works in godot 3.5, and the beaviour in the viewport looks closer of what the bones movement will look like in run.
+
+---
+*original readme*
 # Godot Jigglebones
 
 This is an addon that adds jigglebones to Godot 3.0. If you don't know what that is: jigglebones are bones that jiggle when the skeleton moves. They are used for procedural animation, so you can move only the important parts of the skeleton and the little bits will automatically jiggle with it.
@@ -23,7 +32,7 @@ It can be used for:
 
 [Here's a video of it in action!](https://youtu.be/hJtRCyUwJLY)
 
-# How to use it 
+# How to use it
 
 1. Download the repository as zip and extract it.
 2. Copy the `addons` folder into the root folder of your project, writing into it if it already exists.
@@ -39,7 +48,7 @@ It can be used for:
 6. With the jigglebone selected, go to the inspector and set the `Bone name` property to the name of the bone you want to turn into a jigglebone. E.g. if you have a bone named "Chin", then it would look like this:
 
     ![Variables](images/variables.png)
-    
+
 7. That's all! Enjoy your jiggling! If you want more jigglebones, just repeat step 4-6 again and enter another bone name.
 
 8. Optionally, for further control, you can tune the parameters, see below.
@@ -82,8 +91,8 @@ If you're still in doubt, I have included the `.blend` file in the `models` fold
 
 # Limitations/Known Issues
 
-- Occasionally the bone gets into a twisted state. You can grab the jigglebone in the editor and carefully move it back in a twisting motion to fix it (use the move handles - rotation won't affect it). 
-- The jiggling is stronger in the editor compared to ingame. I'll look into this.
+- Occasionally the bone gets into a twisted state. You can grab the jigglebone in the editor and carefully move it back in a twisting motion to fix it (use the move handles - rotation won't affect it).
+- ~The jiggling is stronger in the editor compared to ingame. I'll look into this.~
 
 # License
 MIT
